@@ -1,0 +1,42 @@
+.App {
+  /* text-align: center; */
+  margin: 20px 30px;
+  width: 600px;
+}
+.productCategoryRow{
+  padding-left: 20px !important;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.bold{
+  font-weight: bold;
+  padding: 10px 0;
+}
+.search-bar{
+  display: block;
+}
+.available{
+  color: black;
+}
+.not-available{
+  color: red;
+}
+.items{
+  display: flex;
+  column-gap: 80px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
